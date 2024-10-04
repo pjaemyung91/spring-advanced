@@ -1,12 +1,12 @@
 package com.example.spring_advanced.app.v0;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
 @RequiredArgsConstructor
-public class OrderController {
+public class OrderControllerV0 {
 
     private final OrderServiceV0 orderService;
 
